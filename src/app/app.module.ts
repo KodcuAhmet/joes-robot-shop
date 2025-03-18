@@ -11,6 +11,7 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 import { CartComponent } from '../app/cart/cart.component';
 import { AppRoutingModule } from './app-routing.module';
 import { SignInComponent } from '_course-resources/user/sign-in/sign-in.component';
+import { TemplateFormControlsComponent } from './user/template-form-controls/template-form-controls.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SignInComponent } from '_course-resources/user/sign-in/sign-in.componen
     SiteHeaderComponent,
     ProductDetailsComponent,
     CartComponent,
-    SignInComponent
+    SignInComponent,
+    TemplateFormControlsComponent
   ],
   imports: [
     BrowserModule, HttpClientModule, AppRoutingModule, FormsModule
